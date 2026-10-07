@@ -1,0 +1,15 @@
+{
+  "item.minecraft.diamond_helmet": "Netherite Helmet",
+  "item.minecraft.diamond_chestplate": "Netherite Chestplate",
+  "item.minecraft.diamond_leggings": "Netherite Leggings",
+  "item.minecraft.diamond_boots": "Netherite Boots",
+  "block.minecraft.diamond_block": "Block of Netherite",
+
+  "item.minecraft.diamond": "Netherite Ingot",
+
+  "item.minecraft.diamond_sword": "Netherite Sword",
+  "item.minecraft.diamond_axe": "Netherite Axe",
+  "item.minecraft.diamond_pickaxe": "Netherite Pickaxe",
+  "item.minecraft.diamond_shovel": "Netherite Shovel",
+  "item.minecraft.diamond_hoe": "Netherite Hoe"
+}

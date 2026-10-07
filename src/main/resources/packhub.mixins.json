@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.pathetictry.packhub.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "AbstractSkullBlockMixin",
+    "PackSelectionModelMixin",
+    "ItemStackMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

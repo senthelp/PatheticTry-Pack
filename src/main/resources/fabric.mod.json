@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "packhub",
+  "version": "${version}",
+  "name": "PatheticTry Pack Hub",
+  "description": "Client-side: bundles resource packs (toggle them with /packs or in the Resource Packs screen) plus a Dragon Head look for Skeleton Skulls. Only changes what YOU see. Made by PatheticTry.",
+  "authors": [
+    "PatheticTry"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.pathetictry.packhub.PackHubMod"
+    ],
+    "client": [
+      "com.pathetictry.packhub.PackHubClient"
+    ]
+  },
+  "mixins": [
+    "packhub.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": ">=1.0.0",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

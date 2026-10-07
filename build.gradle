@@ -1,0 +1,26 @@
+plugins {
+    // Minecraft 26.1+ is unobfuscated: non-remapping Loom, no mappings line, plain `implementation`
+    id 'net.fabricmc.fabric-loom' version '1.15-SNAPSHOT'
+}
+
+version = project.mod_version
+group = 'com.pathetictry.packhub'
+base { archivesName = 'pathetictry-pack-hub' }
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+}
+
+processResources {
+    inputs.property "version", project.version
+    filesMatching("fabric.mod.json") { expand "version": project.version }
+}
+
+tasks.withType(JavaCompile).configureEach { options.release = 25; options.encoding = "UTF-8" }
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
+}

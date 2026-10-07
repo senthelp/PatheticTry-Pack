@@ -1,0 +1,4 @@
+# One pack per line:  folder | name shown in /packs | on or off (turned on by default?) | short description (hover text)
+# The folder lives in src/main/resources/resourcepacks/<folder>/ and has pack.mcmeta at its top.
+diamond_to_netherite|Diamond to Netherite|off|Diamond tools, armor and blocks look and are named Netherite.
+fake_ores|Fake Ores|off|Disguises blocks: nether bricks = block of diamond, pumpkin = ancient debris, purpur = gilded blackstone, hay bale = sponge.
